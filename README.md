@@ -1,4 +1,4 @@
-                        📦 OptiStockWeb
+ 📦 OptiStockWeb
                         
 Sistema de gestión de inventario con interfaz moderna en tema oscuro.
 
