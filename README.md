@@ -1,6 +1,6 @@
 📦 OptiStockWeb
 Sistema de gestión de inventario con interfaz moderna en tema oscuro.
-![Dashboard](https://raw.githubusercontent.com/tu-usuario/OptiStockWeb/main/public/screenshots/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/Jorge3023/OptiStockWeb/main/public/screenshots/dashboard.png)
 ✨ Características
 
 📊 Dashboard con gráficas en tiempo real
