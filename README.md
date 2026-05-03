@@ -1,8 +1,8 @@
 📦 OptiStockWeb
 Sistema de gestión de inventario con interfaz moderna en tema oscuro.
-![Dashboard](https://raw.githubusercontent.com/OptiStockWeb/OptiStockWeb/main/public/screenshots/dashboard.png)
-✨ Características
+![dashboard](public/screenshots/dashboard.png)
 
+✨ Características
 📊 Dashboard con gráficas en tiempo real
 📦 CRUD completo de productos con búsqueda y filtros
 🕒 Historial de cambios por producto
@@ -11,7 +11,6 @@ Sistema de gestión de inventario con interfaz moderna en tema oscuro.
 
 
 🛠️ Tecnologías
-
 PHP 8.2 + Laravel 12
 Supabase (PostgreSQL en la nube)
 Chart.js para gráficas
