@@ -8,7 +8,8 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/tinker": "^2.10.1",
+        "revolution/laravel-google-sheets": "^7.1"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

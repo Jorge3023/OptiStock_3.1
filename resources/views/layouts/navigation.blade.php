@@ -17,13 +17,16 @@
                     </x-nav-link>
 
                     {{-- 👇 Link agregado --}}
-                    <x-nav-link :href="route('productos.index')" :active="request()->routeIs('productos.*')">
+                    <x-nav-link :href="route('productos.index')" :active="request()->routeIs('productos.index') || request()->routeIs('productos.create') || request()->routeIs('productos.edit')">
                         {{ __('Productos') }}
+                    </x-nav-link>
 
-                     <x-nav-link :href="route('productos.cambios')" :active="request()->routeIs('productos.cambios')">
-                               {{ __('Últimos Cambios') }}
-                      </x-nav-link>
-                      
+                    <x-nav-link :href="route('productos.cambios')" :active="request()->routeIs('productos.cambios')">
+                        {{ __('Últimos Cambios') }}
+                    </x-nav-link>
+
+                    <x-nav-link :href="route('logs.index')" :active="request()->routeIs('logs.*')">
+                        {{ __('Logs') }}
                     </x-nav-link>
                 </div>
             </div>
@@ -82,8 +85,12 @@
             </x-responsive-nav-link>
 
             {{-- 👇 Link agregado para móvil --}}
-            <x-responsive-nav-link :href="route('productos.index')" :active="request()->routeIs('productos.*')">
+            <x-responsive-nav-link :href="route('productos.index')" :active="request()->routeIs('productos.index')">
                 {{ __('Productos') }}
+            </x-responsive-nav-link>
+
+            <x-responsive-nav-link :href="route('productos.cambios')" :active="request()->routeIs('productos.cambios')">
+                {{ __('Últimos Cambios') }}
             </x-responsive-nav-link>
         </div>
 

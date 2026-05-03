@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductoController;
+use App\Http\Controllers\LogController;
 use App\Models\Producto;
 
 // Redirige / directo al login (o dashboard si ya está autenticado)
@@ -27,6 +28,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/productos/cambios', [ProductoController::class, 'cambios'])->name('productos.cambios');
 
     Route::resource('productos', ProductoController::class);
+
+    // Logs de sesión
+    Route::get('/logs', [LogController::class, 'index'])->name('logs.index');
 });
 
 require __DIR__.'/auth.php';
